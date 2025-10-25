@@ -1,4 +1,4 @@
-[![CI](https://github.com/<your-username>/homework1/actions/workflows/ci.yml/badge.svg)](https://github.com/<your-username>/homework1/actions/workflows/ci.yml)
+[![CI](https://github.com/ioanniskarvelis/homework1/actions/workflows/ci.yml/badge.svg)](https://github.com/ioanniskarvelis/homework1/actions/workflows/ci.yml)
 
 ## Homework 1 — Compressed Trie (Java)
 
