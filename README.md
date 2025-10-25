@@ -1,6 +1,8 @@
-## Compressed Trie
+[![CI](https://github.com/<your-username>/homework1/actions/workflows/ci.yml/badge.svg)](https://github.com/<your-username>/homework1/actions/workflows/ci.yml)
 
-A small Java console app that implements a compressed trie and supports commands to insert, find, remove, print in preorder, list dictionary words, list words with a suffix, and list words within a Hamming-like distance from a given word. This mini project was part of the course 'Object-Oriented Programming' of my university school.
+## Homework 1 — Compressed Trie (Java)
+
+A small Java console app that implements a compressed trie and supports commands to insert, find, remove, print in preorder, list dictionary words, list words with a suffix, and list words within a Hamming-like distance from a given word.
 
 ### Project structure
 - `src/ce326/hw1/` — Sources (`HW1.java`, `Trie.java`, `TrieNode.java`)
@@ -59,9 +61,6 @@ Example session:
 ### Notes
 - Input is treated in lowercase (`HW1` converts input to lowercase).
 - The implementation is array-based with 26 children per node (a–z).
-
-### Contributing
-PRs welcome for documentation improvements or small fixes.
 
 ### License
 MIT — see `LICENSE`.
