@@ -1,5 +1,3 @@
-[![CI](https://github.com/ioanniskarvelis/homework1/actions/workflows/ci.yml/badge.svg)](https://github.com/ioanniskarvelis/homework1/actions/workflows/ci.yml)
-
 ## Homework 1 — Compressed Trie (Java)
 
 A small Java console app that implements a compressed trie and supports commands to insert, find, remove, print in preorder, list dictionary words, list words with a suffix, and list words within a Hamming-like distance from a given word.
