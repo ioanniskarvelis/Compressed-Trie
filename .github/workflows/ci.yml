@@ -1,0 +1,30 @@
+name: CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up JDK
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      - name: Compile sources
+        run: |
+          mkdir -p out
+          javac -d out src/ce326/hw1/*.java
+
+      - name: Run a smoke test
+        run: |
+          echo "-i test\n-p\n-q" | java -cp out ce326.hw1.HW1 || true
